@@ -23,11 +23,11 @@ describe "Caesar Cipher" do
         end
 
         it 'works with phrases and arbitrarily large positive shifts' do
-            expect(caesar_cipher("Hello, world!", 100)).to eql("Lipps, asvph!")
+            expect(caesar_cipher("Hello, world!", 100)).to eql("Dahhk, sknhz!")
         end
 
         it 'works with phrases and arbitrarily large negative shifts' do
-            expect(caesar_cipher("Hello, world!", -100)).to eql("Dahhk, sknhz!")
+            expect(caesar_cipher("Hello, world!", -100)).to eql("Lipps, asvph!")
         end
     end
 end
