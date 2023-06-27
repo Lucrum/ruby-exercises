@@ -7,11 +7,11 @@ describe 'Bubble sort' do
         expect(bubble_sort(arr)).to eql(arr.sort)
     end
 
-    xit 'returns an empty array if array is empty' do
+    it 'returns an empty array if array is empty' do
         expect(bubble_sort([])).to eql([])
     end
 
-    xit 'returns the same array if the array has one element' do
-        expect(bubble_sort[2]).to eql([2])
+    it 'returns the same array if the array has one element' do
+        expect(bubble_sort([2])).to eql([2])
     end
 end
